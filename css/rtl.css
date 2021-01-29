@@ -1,0 +1,34 @@
+@font-face {
+    font-family: "Samim";
+    src: url("../fonts/Samim-FD.eot");
+    /* IE9 Compat Modes */
+    src: url("../fonts/Samim-FD.eot?#iefix") format("embedded-opentype"),
+        /* IE6-IE8 */ url("../fonts/Samim-FD.woff") format("woff"),
+        /* Pretty Modern Browsers */ url("../fonts/Samim-FD.woff2") format("woff2"),
+        /* Pretty Modern Browsers */ url("../fonts/Samim-FD.ttf") format("truetype");
+    /* Safari, Android, iOS */
+}
+body,
+a,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+select,
+option,
+p,
+div,
+input::placeholder,
+textarea,
+label,
+button,
+em,strong,
+li {
+    font-family: "Samim" !important;
+}
+*{
+    letter-spacing:  0 !important;
+}
